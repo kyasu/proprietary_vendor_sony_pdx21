@@ -831,3 +831,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx214/proprietary/vendor/firmware/yupik_ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b04 \
     vendor/sony/pdx214/proprietary/vendor/firmware/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.elf \
     vendor/sony/pdx214/proprietary/vendor/firmware/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.mdt
+
+PRODUCT_PACKAGES += \
+    bdwlan_bdwlan_symlink \
+    bdwlan_bdwlan_symlink_1 \
+    bdwlan_bdwlan_symlink_2
